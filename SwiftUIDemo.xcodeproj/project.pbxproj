@@ -8,15 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		B709C1B42B0CEB4F00F53EC1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B709C1B32B0CEB4F00F53EC1 /* Preview Assets.xcassets */; };
-		B709C1B72B0CEF8F00F53EC1 /* ViewExtended.swift in Sources */ = {isa = PBXBuildFile; fileRef = B709C1B62B0CEF8F00F53EC1 /* ViewExtended.swift */; };
+		B7D4F9622B0F56BF00EAF023 /* LoginUiSpm in Frameworks */ = {isa = PBXBuildFile; productRef = B7D4F9612B0F56BF00EAF023 /* LoginUiSpm */; };
 		D401FBC02B0BC46200435CE8 /* SwiftUIDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D401FBBF2B0BC46200435CE8 /* SwiftUIDemoApp.swift */; };
 		D401FBC22B0BC46200435CE8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D401FBC12B0BC46200435CE8 /* ContentView.swift */; };
 		D401FBC42B0BC46500435CE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D401FBC32B0BC46500435CE8 /* Assets.xcassets */; };
 		D401FBCE2B0BD24800435CE8 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D401FBCD2B0BD24800435CE8 /* ChartView.swift */; };
-		D401FBD12B0BD3B000435CE8 /* SocialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D401FBD02B0BD3B000435CE8 /* SocialButton.swift */; };
-		D401FBD32B0BD3D100435CE8 /* SocialLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D401FBD22B0BD3D100435CE8 /* SocialLoginView.swift */; };
-		D401FBD52B0BD3FE00435CE8 /* CustomPasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D401FBD42B0BD3FE00435CE8 /* CustomPasswordTextField.swift */; };
-		D401FBD72B0BD42400435CE8 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D401FBD62B0BD42400435CE8 /* CustomTextField.swift */; };
 		D40308EC2B0CA8FA00AACF61 /* AgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40308EB2B0CA8FA00AACF61 /* AgeView.swift */; };
 		D40308EE2B0CAC1200AACF61 /* DonutChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40308ED2B0CAC1200AACF61 /* DonutChart.swift */; };
 		D40308F02B0CAC5100AACF61 /* BarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40308EF2B0CAC5100AACF61 /* BarView.swift */; };
@@ -25,16 +21,11 @@
 
 /* Begin PBXFileReference section */
 		B709C1B32B0CEB4F00F53EC1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		B709C1B62B0CEF8F00F53EC1 /* ViewExtended.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtended.swift; sourceTree = "<group>"; };
 		D401FBBC2B0BC46200435CE8 /* SwiftUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D401FBBF2B0BC46200435CE8 /* SwiftUIDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDemoApp.swift; sourceTree = "<group>"; };
 		D401FBC12B0BC46200435CE8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D401FBC32B0BC46500435CE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D401FBCD2B0BD24800435CE8 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
-		D401FBD02B0BD3B000435CE8 /* SocialButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialButton.swift; sourceTree = "<group>"; };
-		D401FBD22B0BD3D100435CE8 /* SocialLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialLoginView.swift; sourceTree = "<group>"; };
-		D401FBD42B0BD3FE00435CE8 /* CustomPasswordTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPasswordTextField.swift; sourceTree = "<group>"; };
-		D401FBD62B0BD42400435CE8 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		D40308EB2B0CA8FA00AACF61 /* AgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeView.swift; sourceTree = "<group>"; };
 		D40308ED2B0CAC1200AACF61 /* DonutChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonutChart.swift; sourceTree = "<group>"; };
 		D40308EF2B0CAC5100AACF61 /* BarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarView.swift; sourceTree = "<group>"; };
@@ -46,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7D4F9622B0F56BF00EAF023 /* LoginUiSpm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,14 +50,6 @@
 				B709C1B32B0CEB4F00F53EC1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		B709C1B52B0CEF7A00F53EC1 /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-				B709C1B62B0CEF8F00F53EC1 /* ViewExtended.swift */,
-			);
-			path = Extension;
 			sourceTree = "<group>";
 		};
 		D401FBB32B0BC46200435CE8 = {
@@ -87,7 +71,6 @@
 		D401FBBE2B0BC46200435CE8 /* SwiftUIDemo */ = {
 			isa = PBXGroup;
 			children = (
-				B709C1B52B0CEF7A00F53EC1 /* Extension */,
 				D401FBCF2B0BD39E00435CE8 /* Component */,
 				D401FBBF2B0BC46200435CE8 /* SwiftUIDemoApp.swift */,
 				D401FBC12B0BC46200435CE8 /* ContentView.swift */,
@@ -102,10 +85,6 @@
 		D401FBCF2B0BD39E00435CE8 /* Component */ = {
 			isa = PBXGroup;
 			children = (
-				D401FBD02B0BD3B000435CE8 /* SocialButton.swift */,
-				D401FBD22B0BD3D100435CE8 /* SocialLoginView.swift */,
-				D401FBD42B0BD3FE00435CE8 /* CustomPasswordTextField.swift */,
-				D401FBD62B0BD42400435CE8 /* CustomTextField.swift */,
 				D40308EB2B0CA8FA00AACF61 /* AgeView.swift */,
 				D40308ED2B0CAC1200AACF61 /* DonutChart.swift */,
 				D40308EF2B0CAC5100AACF61 /* BarView.swift */,
@@ -129,6 +108,9 @@
 			dependencies = (
 			);
 			name = SwiftUIDemo;
+			packageProductDependencies = (
+				B7D4F9612B0F56BF00EAF023 /* LoginUiSpm */,
+			);
 			productName = SwiftUIDemo;
 			productReference = D401FBBC2B0BC46200435CE8 /* SwiftUIDemo.app */;
 			productType = "com.apple.product-type.application";
@@ -157,6 +139,9 @@
 				Base,
 			);
 			mainGroup = D401FBB32B0BC46200435CE8;
+			packageReferences = (
+				B7D4F9602B0F56BF00EAF023 /* XCRemoteSwiftPackageReference "LoginUiSpm" */,
+			);
 			productRefGroup = D401FBBD2B0BC46200435CE8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -185,16 +170,11 @@
 			files = (
 				D40308EE2B0CAC1200AACF61 /* DonutChart.swift in Sources */,
 				D40308EC2B0CA8FA00AACF61 /* AgeView.swift in Sources */,
-				D401FBD72B0BD42400435CE8 /* CustomTextField.swift in Sources */,
-				D401FBD12B0BD3B000435CE8 /* SocialButton.swift in Sources */,
 				D40308F02B0CAC5100AACF61 /* BarView.swift in Sources */,
-				B709C1B72B0CEF8F00F53EC1 /* ViewExtended.swift in Sources */,
-				D401FBD32B0BD3D100435CE8 /* SocialLoginView.swift in Sources */,
 				D401FBC22B0BC46200435CE8 /* ContentView.swift in Sources */,
 				D401FBC02B0BC46200435CE8 /* SwiftUIDemoApp.swift in Sources */,
 				D40308F22B0CC5BC00AACF61 /* LoginView.swift in Sources */,
 				D401FBCE2B0BD24800435CE8 /* ChartView.swift in Sources */,
-				D401FBD52B0BD3FE00435CE8 /* CustomPasswordTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,6 +382,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B7D4F9602B0F56BF00EAF023 /* XCRemoteSwiftPackageReference "LoginUiSpm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/App-Ringer/LoginUiSpm";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B7D4F9612B0F56BF00EAF023 /* LoginUiSpm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B7D4F9602B0F56BF00EAF023 /* XCRemoteSwiftPackageReference "LoginUiSpm" */;
+			productName = LoginUiSpm;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D401FBB42B0BC46200435CE8 /* Project object */;
 }

@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "loginuispm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/App-Ringer/LoginUiSpm",
+      "state" : {
+        "revision" : "292ef9d98f3cc3c761ecabd7ff8343453c96f6be",
+        "version" : "0.0.5"
+      }
+    }
+  ],
+  "version" : 2
+}
